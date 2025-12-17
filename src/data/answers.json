@@ -1,0 +1,10 @@
+{
+    "greeting": "Hi — I’m the assistant for Muhammad Saad. Ask me about his skills, projects, or contact details.",
+    "who is muhammad saad": "I’m Muhammad Saad — a BSCS student at Iqra University. I design and build front-end experiences using modern tools like React and Vite.",
+    "name": "Yeah it's Muhammad Saad.",
+    "skills": "Frontend: HTML, CSS, JavaScript, React, Next.js. 3D: Three.js, GLSL. Tools: Figma, Git, Vite, Tailwind, GSAP.",
+    "projects": "Featured projects: 1) E-Commerce Marketing Page (Freelance). 2) SaaS Analytics Dashboard (Internship). 3) Campus Event Manager (University). 4) Tech Blog Platform (Content Writing). Click a project to view details.",
+    "contact": "Email: muhammadsaadaslam99@gmail.com • Phone: 03208154950 • LinkedIn: https://www.linkedin.com/in/muhammad-saad-68135a2b5 • GitHub: https://github.com/saadaslam99",
+    "experience": "Freelance Frontend Developer (2025–Present): responsive marketing pages. Intern — Web Developer (Summer 2024): React components. Student Team Lead (2023–2024). Content Writer (2022): Blogs and social media material.",
+    "goals": "To build cinematic, accessible, and high-performance web experiences; to learn advanced GLSL shaders and ship production-grade 3D web apps."
+}
