@@ -5,6 +5,8 @@ import Experience from './components/features/Experience';
 import Projects from './components/features/Projects';
 import Contact from './components/features/Contact';
 import AIWidget from './components/features/AIWidget';
+import SkillDNA from './components/features/SkillDNA/SkillDNA';
+import RandomizedText from './components/features/RandomizedText';
 
 function App() {
   return (
@@ -12,9 +14,17 @@ function App() {
       {/* Hero Section */}
       <section id="hero" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
         <div className="container">
-          <h1 style={{ fontSize: 'clamp(3rem, 8vw, 6rem)', marginBottom: '1rem', textShadow: '0 0 20px rgba(0,0,0,0.5)' }}>
-            Muhammad Saad
-          </h1>
+          <RandomizedText
+            text="MUHAMMAD SAAD"
+            className="hero-title"
+            style={{
+              fontSize: 'clamp(3rem, 8vw, 6rem)',
+              marginBottom: '1rem',
+              textShadow: '0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.2)',
+              color: '#fff',
+              fontWeight: 'bold'
+            }}
+          />
           <p style={{ fontSize: 'clamp(1rem, 2vw, 1.5rem)', color: 'var(--color-accent)', maxWidth: '600px', textShadow: '0 0 10px rgba(0,0,0,0.5)' }}>
             Frontend Developer — BSCS @ Iqra University
           </p>
@@ -27,6 +37,7 @@ function App() {
       </section>
 
       <About />
+      <SkillDNA />
       <Experience />
       <Projects />
       <Contact />

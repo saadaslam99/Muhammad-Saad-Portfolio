@@ -5,6 +5,7 @@ import { EffectComposer, Bloom, Noise, Vignette } from '@react-three/postprocess
 import { gsap } from 'gsap';
 import Monogram from './Monogram';
 import Particles from './Particles';
+import HeroText3D from './HeroText3D';
 
 const Scene = () => {
     const cameraRef = React.useRef();
@@ -35,7 +36,6 @@ const Scene = () => {
                 <pointLight position={[-10, -10, -10]} intensity={1} />
 
                 <Suspense fallback={null}>
-                    <Monogram />
                     <Particles count={500} />
                     <Environment preset="city" />
                     <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
